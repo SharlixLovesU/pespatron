@@ -20,7 +20,7 @@ field_text = QTextEdit()
 button_tag_add = QPushButton("Додати до замітки")
 button_tag_del = QPushButton("Відкріпити від замітки")
 button_tag_search = QPushButton("Шукати замітки по тегу")
-list_tag = QListWidget
+list_tag = QListWidget()
 list_tag_label = QLabel("Список тегів")
 
 layout_notes = QHBoxLayout()
@@ -46,7 +46,7 @@ col_2.addWidget(list_tag)
 col_2.addWidget(field_tag)
 
 row_3 = QHBoxLayout()
-row_3.addWIdget(button_tag_add)
+row_3.addWidget(button_tag_add)
 row_3.addWidget(button_tag_del)
 
 row_4 = QHBoxLayout()
